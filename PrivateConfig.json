@@ -1,0 +1,12 @@
+{
+    "storageAccountName": "jrladtest1",
+    "storageAccountSasToken": "sv=2019-02-02&ss=btqf&srt=sco&st=2020-07-10T20%3A30%3A29Z&se=2020-07-10T20%3A30%3A00Z&sp=rwdlacup&sig=0000000000000000000000",
+    "sinksConfig": {
+      "sink": [
+        {
+          "name": "FilelogJsonBlob",
+          "type": "JsonBlob"
+        }
+      ]
+    }
+  }

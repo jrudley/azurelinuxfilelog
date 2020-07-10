@@ -1,0 +1,26 @@
+{
+    "StorageAccount": "jrladtest1",
+    "ladCfg": {
+      "diagnosticMonitorConfiguration": {
+        "eventVolume": "Medium", 
+        "metrics": {
+          "metricAggregation": [
+            {
+              "scheduledTransferPeriod": "PT1H"
+            }, 
+            {
+              "scheduledTransferPeriod": "PT1M"
+            }
+          ], 
+          "resourceId": "/subscriptions/00000-00000-00000000-0000000/resourceGroups/jrlinux1/providers/Microsoft.Compute/virtualMachines/jrlinux1"
+        }
+      }, 
+      "sampleRateInSeconds": 15
+    },
+    "fileLogs": [
+        {
+          "file": "/var/log/nginx/access.log",
+          "table": "MyLadTestLog"
+        }
+      ]
+  }
